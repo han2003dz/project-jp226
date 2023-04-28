@@ -1,0 +1,23 @@
+@import url('reset.css');
+
+/* Header */
+/* Menu */
+.navbar .navbar-brand img {
+    height: 50px;
+}
+
+/* Slider */
+.carousel-caption {
+    background: rgba(red, green, blue, alpha);
+}
+/* About */
+/* News */
+
+
+/* Media */
+@media (max-width: 575.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 992x) and (max-width: 1199.98px) {  }
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+@media (min-width: 1400) {  }

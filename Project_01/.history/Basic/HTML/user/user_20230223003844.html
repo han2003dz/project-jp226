@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="/Basic/CSS/all.min.css">
+    <link href="/Basic/bs530/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- My style -->
+    <link rel="stylesheet" href="user.css">
+    <script lang="JavaScript" src="ckeditor.js"></script>
+</head>
+
+<body>
+    <!-- title user management -->
+    <div class="container-fluid">
+        <div class="container-lg">
+            <div class="row pt-5">
+                <div class="col-lg-12 text-bg-primary opacity-75">
+                    <div class="login-title py-3 text-center fw-semibold text-uppercase">
+                        <i class="fa-solid fa-people-carry-box"></i> User Management
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg py-4 navigation">
+        <!-- Navigation -->
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview"
+                    type="button" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</button>
+                <button class="nav-link" id="nav-edit-tab" data-bs-toggle="tab" data-bs-target="#nav-edit"
+                    type="button" role="tab" aria-controls="nav-edit" aria-selected="false">Edit</button>
+                <button class="nav-link" id="nav-pass-tab" data-bs-toggle="tab" data-bs-target="#nav-pass"
+                    type="button" role="tab" aria-controls="nav-pass" aria-selected="false">Change password</button>
+                <button class="nav-link" id="nav-setting-tab" data-bs-toggle="tab" data-bs-target="#nav-setting"
+                    type="button" role="tab" aria-controls="nav-setting" aria-selected="false">Setting</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <!-- Overview -->
+            <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab" tabindex="0">
+
+            </div>
+            <!-- Edit -->
+            <div class="tab-pane fade" id="nav-edit" role="tabpanel" aria-labelledby="nav-edit-tab" tabindex="0">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="login-form">
+                            <form action="">
+                                <div class="row">
+                                    <!-- User name -->
+                                    <label for="" class="col-sm-2">
+                                        
+                                    </label>
+
+                                    <div class="col-sm-4">
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Change Pass -->
+            <div class="tab-pane fade" id="nav-pass" role="tabpanel" aria-labelledby="nav-pass-tab" tabindex="0">
+                ...</div>
+            <!-- Setting -->
+            <div class="tab-pane fade" id="nav-setting" role="tabpanel" aria-labelledby="nav-setting-tab"
+                tabindex="0">...</div>
+        </div>
+    </div>
+    <!-- <script src="ckeditor.js"></script> -->
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'), {
+                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+            })
+            .then(editor => {
+                window.editor = editor;
+            })
+            .catch(err => {
+                console.error(err.stack);
+            });
+    </script>
+    <script src="/Basic/bs530/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

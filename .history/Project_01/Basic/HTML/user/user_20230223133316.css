@@ -1,0 +1,26 @@
+@import url('/Basic/HTML/basic/basic.css');
+.container-fluid{
+    background: #ccc;
+}
+.login-title{
+	font-size: 1.2rem;
+}
+.navigation {
+    background: linear-gradient(to right, #BBD2C5, #3CD3AD);
+}
+a {
+    text-decoration: none;
+}
+/* .col-6 input[type="text"], .col-6 input[type="password"], .col-4 input[type="checkbox"] {
+	box-shadow: 0 0 10px #88f;
+/* Media */
+@media (max-width: 575.98px) {
+    .login-form .col-sm-4 {
+        text-align: left !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 992x) and (max-width: 1199.98px) {  }
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+@media (min-width: 1400) {  }

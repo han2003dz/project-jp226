@@ -1,0 +1,6 @@
+--------JavaScript DOM -----------
+window.document.frmSearch
+document.frmSearch
+window.document.forms[0]
+document
+<!-- cấu trúc của hộp thư -->

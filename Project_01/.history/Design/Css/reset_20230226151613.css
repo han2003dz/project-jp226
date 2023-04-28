@@ -1,0 +1,48 @@
+/* các xử lý mã định dạng cho thẻ HTML
+mã định dạng này được sử dụng cho file basic.html*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Fonts */
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+/* Colors */
+:root {
+  --color-default: #0a0d13;
+  --color-primary: #0d42ff;
+  --color-secondary: #0e1d34;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #406aff;
+  text-decoration: none;
+}
+body {
+  background: #fffffe;
+  color: #555;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+}
